@@ -13,9 +13,11 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
+  font-size: medium;
   border: none;
   border-radius: 8px;
   background: #eee;
+  margin: 8px;
 }
 
 input {
@@ -25,3 +27,49 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* added by me */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.content  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #eee;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
